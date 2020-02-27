@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/maps/farmWithFunsies.tmx</SourceFile>
+  <SourceTime>2020-01-08T22:14:13.2023692-05:00</SourceTime>
+  <DestFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/maps/farmWithFunsies.xnb</DestFile>
+  <DestTime>2020-01-08T22:15:26.1506643-05:00</DestTime>
+  <Importer>TiledMapImporter</Importer>
+  <ImporterTime>2018-05-23T11:26:24-04:00</ImporterTime>
+  <Processor>TiledMapProcessor</Processor>
+  <ProcessorTime>2018-05-23T11:26:24-04:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

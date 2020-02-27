@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/sprites/placeables/pottery_jar_spritesheet.png</SourceFile>
+  <SourceTime>2019-09-12T22:18:30.8990471-04:00</SourceTime>
+  <DestFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/sprites/placeables/pottery_jar_spritesheet.xnb</DestFile>
+  <DestTime>2019-09-13T17:36:29.476851-04:00</DestTime>
+  <Importer>TextureImporter</Importer>
+  <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
+  <Processor>TextureProcessor</Processor>
+  <ProcessorTime>2018-12-08T11:35:54-05:00</ProcessorTime>
+  <Parameters>
+    <Key>ColorKeyColor</Key>
+    <Value>255,0,255,255</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ColorKeyEnabled</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>GenerateMipmaps</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>ResizeToPowerOfTwo</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>MakeSquare</Key>
+    <Value>False</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Color</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
