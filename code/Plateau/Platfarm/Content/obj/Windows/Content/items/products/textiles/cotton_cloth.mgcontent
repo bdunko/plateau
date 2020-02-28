@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/items/products/textiles/cotton_cloth.png</SourceFile>
+  <SourceFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/items/products/textiles/cotton_cloth.png</SourceFile>
   <SourceTime>2019-09-05T15:31:35.431723-04:00</SourceTime>
-  <DestFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/items/products/textiles/cotton_cloth.xnb</DestFile>
-  <DestTime>2019-09-05T15:52:07.0413633-04:00</DestTime>
+  <DestFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/items/products/textiles/cotton_cloth.xnb</DestFile>
+  <DestTime>2020-02-28T10:35:37.3299087-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

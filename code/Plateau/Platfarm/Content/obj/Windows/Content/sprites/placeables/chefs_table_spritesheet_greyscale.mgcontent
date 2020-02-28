@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/sprites/placeables/chefs_table_spritesheet_greyscale.png</SourceFile>
+  <SourceFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/sprites/placeables/chefs_table_spritesheet_greyscale.png</SourceFile>
   <SourceTime>2019-10-05T23:27:17.1995546-04:00</SourceTime>
-  <DestFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/sprites/placeables/chefs_table_spritesheet_greyscale.xnb</DestFile>
-  <DestTime>2019-10-17T21:37:55.4302446-04:00</DestTime>
+  <DestFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/sprites/placeables/chefs_table_spritesheet_greyscale.xnb</DestFile>
+  <DestTime>2020-02-28T10:36:43.1001291-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

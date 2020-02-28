@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/sprites/clothes/hair_afro_alfonso.png</SourceFile>
+  <SourceFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/sprites/clothes/hair_afro_alfonso.png</SourceFile>
   <SourceTime>2019-09-05T15:04:34.8461542-04:00</SourceTime>
-  <DestFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/sprites/clothes/hair_afro_alfonso.xnb</DestFile>
-  <DestTime>2019-09-05T15:10:19.7037743-04:00</DestTime>
+  <DestFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/sprites/clothes/hair_afro_alfonso.xnb</DestFile>
+  <DestTime>2020-02-28T10:36:06.805887-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

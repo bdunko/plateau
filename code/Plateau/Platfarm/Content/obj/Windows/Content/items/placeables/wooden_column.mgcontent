@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/items/placeables/wooden_column.png</SourceFile>
+  <SourceFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/items/placeables/wooden_column.png</SourceFile>
   <SourceTime>2019-10-17T21:26:31.0870451-04:00</SourceTime>
-  <DestFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/items/placeables/wooden_column.xnb</DestFile>
-  <DestTime>2019-10-17T21:37:54.7916113-04:00</DestTime>
+  <DestFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/items/placeables/wooden_column.xnb</DestFile>
+  <DestTime>2020-02-28T10:35:27.7827385-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

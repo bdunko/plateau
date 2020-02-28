@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/interface/scrapbook_pieces/tab4hover.png</SourceFile>
+  <SourceFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/interface/scrapbook_pieces/tab4hover.png</SourceFile>
   <SourceTime>2020-01-18T23:11:33.2516085-05:00</SourceTime>
-  <DestFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/interface/scrapbook_pieces/tab4hover.xnb</DestFile>
-  <DestTime>2020-01-18T23:28:33.6178805-05:00</DestTime>
+  <DestFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/interface/scrapbook_pieces/tab4hover.xnb</DestFile>
+  <DestTime>2020-02-28T10:34:25.2251664-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

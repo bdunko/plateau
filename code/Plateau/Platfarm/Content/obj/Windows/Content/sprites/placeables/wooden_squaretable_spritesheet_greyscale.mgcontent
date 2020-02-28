@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/sprites/placeables/wooden_squaretable_spritesheet_greyscale.png</SourceFile>
+  <SourceFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/sprites/placeables/wooden_squaretable_spritesheet_greyscale.png</SourceFile>
   <SourceTime>2019-09-10T17:20:50.1974842-04:00</SourceTime>
-  <DestFile>C:/Users/Ben/Desktop/. plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/sprites/placeables/wooden_squaretable_spritesheet_greyscale.xnb</DestFile>
-  <DestTime>2019-09-13T17:36:33.6142546-04:00</DestTime>
+  <DestFile>C:/Users/Ben/Desktop/plateau/code/Plateau/Platfarm/Content/bin/Windows/Content/sprites/placeables/wooden_squaretable_spritesheet_greyscale.xnb</DestFile>
+  <DestTime>2020-02-28T10:37:08.0676604-05:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T11:35:54-05:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

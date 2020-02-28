@@ -12,7 +12,7 @@ namespace Platfarm.Components
 {
     public class ScrapbookPage
     {
-        public static Vector2 PAGE_STARTING_POSITION = new Vector2(107, 31);
+        public static Vector2 PAGE_STARTING_POSITION = GameplayInterface.SCRAPBOOK_POSITION + new Vector2(89, 15);
 
         public abstract class Component
         {

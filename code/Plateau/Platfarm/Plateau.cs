@@ -28,7 +28,7 @@ namespace Platfarm
 
         public static RectangleF SCREEN_DIMENSIONS;
         public static int RESOLUTION_X = 320;
-        public static int RESOLUTION_Y = 200;
+        public static int RESOLUTION_Y = 180;
         public static int SCALE = 5;
         public static GraphicsDeviceManager GRAPHICS;
         public static ContentManager CONTENT;

@@ -220,28 +220,28 @@ namespace Platfarm.Components
         private RectangleF[] chestRectangles;
         private Vector2 TOOLTIP_OFFSET = new Vector2(18, -8);
 
-        private static RectangleF GLASSES_INVENTORY_RECT = new RectangleF(131.5f, 32, 18, 18);
-        private static RectangleF BACK_INVENTORY_RECT = new RectangleF(131.5f, 51, 18, 18);
-        private static RectangleF SAILCLOTH_INVENTORY_RECT = new RectangleF(131.5f, 70, 18, 18);
-        private static RectangleF SCARF_INVENTORY_RECT = new RectangleF(150.5f, 32, 18, 18);
-        private static RectangleF OUTERWEAR_INVENTORY_RECT = new RectangleF(150.5f, 51, 18, 18);
-        private static RectangleF SOCKS_INVENTORY_RECT = new RectangleF(150.5f, 70, 18, 18);
-        private static RectangleF HAT_INVENTORY_RECT = new RectangleF(169.5f, 32, 18, 18);
-        private static RectangleF SHIRT_INVENTORY_RECT = new RectangleF(169.5f, 51, 18, 18);
-        private static RectangleF PANTS_INVENTORY_RECT = new RectangleF(169.5f, 70, 18, 18);
-        private static RectangleF EARRINGS_INVENTORY_RECT = new RectangleF(188.5f, 32, 18, 18);
-        private static RectangleF GLOVES_INVENTORY_RECT = new RectangleF(188.5f, 51, 18, 18);
-        private static RectangleF SHOES_INVENTORY_RECT = new RectangleF(188.5f, 70, 18, 18);
-        private static RectangleF ACCESSORY1_INVENTORY_RECT = new RectangleF(207.5f, 32, 18, 18);
-        private static RectangleF ACCESSORY2_INVENTORY_RECT = new RectangleF(207.5f, 51, 18, 18);
-        private static RectangleF ACCESSORY3_INVENTORY_RECT = new RectangleF(207.5f, 70, 18, 18);
+        private static Vector2 INVENTORY_POSITION = new Vector2(58.5f, 10); //if modified, have to manually edit garbage can location & clothing rectangles...
+        private static RectangleF GLASSES_INVENTORY_RECT = new RectangleF(131.5f, 12, 18, 18);
+        private static RectangleF BACK_INVENTORY_RECT = new RectangleF(131.5f, 31, 18, 18);
+        private static RectangleF SAILCLOTH_INVENTORY_RECT = new RectangleF(131.5f, 50, 18, 18);
+        private static RectangleF SCARF_INVENTORY_RECT = new RectangleF(150.5f, 12, 18, 18);
+        private static RectangleF OUTERWEAR_INVENTORY_RECT = new RectangleF(150.5f, 31, 18, 18);
+        private static RectangleF SOCKS_INVENTORY_RECT = new RectangleF(150.5f, 50, 18, 18);
+        private static RectangleF HAT_INVENTORY_RECT = new RectangleF(169.5f, 12, 18, 18);
+        private static RectangleF SHIRT_INVENTORY_RECT = new RectangleF(169.5f, 31, 18, 18);
+        private static RectangleF PANTS_INVENTORY_RECT = new RectangleF(169.5f, 50, 18, 18);
+        private static RectangleF EARRINGS_INVENTORY_RECT = new RectangleF(188.5f, 12, 18, 18);
+        private static RectangleF GLOVES_INVENTORY_RECT = new RectangleF(188.5f, 31, 18, 18);
+        private static RectangleF SHOES_INVENTORY_RECT = new RectangleF(188.5f, 50, 18, 18);
+        private static RectangleF ACCESSORY1_INVENTORY_RECT = new RectangleF(207.5f, 12, 18, 18);
+        private static RectangleF ACCESSORY2_INVENTORY_RECT = new RectangleF(207.5f, 31, 18, 18);
+        private static RectangleF ACCESSORY3_INVENTORY_RECT = new RectangleF(207.5f, 50, 18, 18);
         private static Color CLOTHING_INDICATOR_COLOR = Color.Green * 0.5f;
 
-        private static Vector2 HOTBAR_POSITION = new Vector2(58.5f, 177);
-        private static Vector2 HOTBAR_SELECTED_POSITION_0 = new Vector2(64.5f, 178);
-        private static Vector2 INVENTORY_POSITION = new Vector2(58.5f, 30);
+        private static Vector2 HOTBAR_POSITION = new Vector2(58.5f, 157); //m
+        private static Vector2 HOTBAR_SELECTED_POSITION_0 = new Vector2(64.5f, 158); //m
         private static Vector2 CHEST_INVENTORY_POSITION = INVENTORY_POSITION - new Vector2(0, 9);
-        private static Vector2 INVENTORY_PLAYER_PREVIEW = new Vector2(48.5f, 20);
+        private static Vector2 INVENTORY_PLAYER_PREVIEW = new Vector2(48.5f, 0); //m
         private static Vector2 DATETIME_PANEL_POSITION = new Vector2(271, 2);
         private static Vector2 DATETIME_PANEL_DAYTEXT_OFFSET = new Vector2(1, 15);
         private static Vector2 DATETIME_PANEL_SEASONTEXT_OFFSET = new Vector2(2, 1);
@@ -249,28 +249,28 @@ namespace Platfarm.Components
         private static Vector2 DATETIME_PANEL_GOLD_OFFSET = new Vector2(35, 29);
 
         private string mouseLeftAction, mouseRightAction, mouseLeftShiftAction, mouseRightShiftAction;
-        private static Vector2 MOUSE_CONTROL_POSITION = new Vector2(272, 175);
-        private static Vector2 MOUSE_LEFT_TEXT_POSITION = new Vector2(273, 190);
-        private static Vector2 MOUSE_RIGHT_TEXT_POSITION = new Vector2(302, 190);
+        private static Vector2 MOUSE_CONTROL_POSITION = new Vector2(272, 155); //m
+        private static Vector2 MOUSE_LEFT_TEXT_POSITION = new Vector2(273, 170); //m
+        private static Vector2 MOUSE_RIGHT_TEXT_POSITION = new Vector2(302, 170); //m
 
         private string upAction, leftAction, rightAction, downAction;
-        private static Vector2 KEY_CONTROL_POSITION = new Vector2(15, 172);
-        private static Vector2 KEY_RIGHT_TEXT_POSITION = new Vector2(50, 174);
-        private static Vector2 KEY_LEFT_TEXT_POSITION = new Vector2(12, 174);
-        private static Vector2 KEY_UP_TEXT_POSITION = new Vector2(30, 168);
-        private static Vector2 KEY_DOWN_TEXT_POSITION = new Vector2(30, 196);
+        private static Vector2 KEY_CONTROL_POSITION = new Vector2(15, 152); //m
+        private static Vector2 KEY_RIGHT_TEXT_POSITION = new Vector2(50, 154); //m
+        private static Vector2 KEY_LEFT_TEXT_POSITION = new Vector2(12, 154); //m
+        private static Vector2 KEY_UP_TEXT_POSITION = new Vector2(30, 148); //m
+        private static Vector2 KEY_DOWN_TEXT_POSITION = new Vector2(30, 176); //m
 
-        private static Vector2 KEY_CONTROL_POSITION_DIALOGUE = new Vector2(160, 80);
-        private static Vector2 KEY_RIGHT_TEXT_POSITION_DIALOGUE = new Vector2(212, 89);
-        private static Vector2 KEY_LEFT_TEXT_POSITION_DIALOGUE = new Vector2(135, 89);
-        private static Vector2 KEY_UP_TEXT_POSITION_DIALOGUE = new Vector2(175, 72);
-        private static Vector2 KEY_DOWN_TEXT_POSITION_DIALOGUE = new Vector2(175, 108);
+        private static Vector2 KEY_CONTROL_POSITION_DIALOGUE = new Vector2(160, 60); //m
+        private static Vector2 KEY_RIGHT_TEXT_POSITION_DIALOGUE = new Vector2(212, 69); //m
+        private static Vector2 KEY_LEFT_TEXT_POSITION_DIALOGUE = new Vector2(135, 69); //m
+        private static Vector2 KEY_UP_TEXT_POSITION_DIALOGUE = new Vector2(175, 52); //m
+        private static Vector2 KEY_DOWN_TEXT_POSITION_DIALOGUE = new Vector2(175, 88); //m
 
-        private static Vector2 MENU_CONTROL_POSITION = new Vector2(1, 79);
-        private static Vector2 MENU_BAG_HOTKEY_POSITION = new Vector2(15, 83);
-        private static Vector2 MENU_SCRAPBOOK_HOTKEY_POSITION = new Vector2(15, 96);
-        private static Vector2 MENU_CRAFTING_HOTKEY_POSITION = new Vector2(15, 109);
-        private static Vector2 MENU_SETTINGS_HOTKEY_POSITION = new Vector2(15, 122);
+        private static Vector2 MENU_CONTROL_POSITION = new Vector2(1, 59); //m
+        private static Vector2 MENU_BAG_HOTKEY_POSITION = new Vector2(15, 63); //m
+        private static Vector2 MENU_SCRAPBOOK_HOTKEY_POSITION = new Vector2(15, 76); //m
+        private static Vector2 MENU_CRAFTING_HOTKEY_POSITION = new Vector2(15, 89); //m
+        private static Vector2 MENU_SETTINGS_HOTKEY_POSITION = new Vector2(15, 102); //m
         private Texture2D menuControlsInventoryEnlarge, menuControlsInventoryDepressed;
         private Texture2D menuControlsScrapbookEnlarge, menuControlsScrapbookDepressed;
         private Texture2D menuControlsSettingsEnlarge, menuControlsSettingsDepressed;
@@ -278,11 +278,11 @@ namespace Platfarm.Components
         private bool isMouseOverInventoryMC, isMouseOverScrapbookMC, isMouseOverCraftingMC, isMouseOverSettingsMC;
         private static Vector2 BACKGROUND_BLACK_OFFSET = new Vector2(-9, -9);
 
-        private static Vector2 SHIFT_CONTROL_POSITION = new Vector2(295, 164);
-        private static Vector2 SHIFT_TEXT_POSITION = new Vector2(251, 159);
+        private static Vector2 SHIFT_CONTROL_POSITION = new Vector2(295, 144); //m
+        private static Vector2 SHIFT_TEXT_POSITION = new Vector2(251, 139); //m
 
-        private static Vector2 ESC_CONTROL_POSITION = new Vector2(295, 149.5f);
-        private static Vector2 ESC_TEXT_POSITION = new Vector2(281, 151.5f);
+        private static Vector2 ESC_CONTROL_POSITION = new Vector2(295, 129.5f); //m
+        private static Vector2 ESC_TEXT_POSITION = new Vector2(281, 131.5f); //m
 
         private static Vector2 MENU_BUTTON_SIZE = new Vector2(11, 11);
         private static int MENU_DELTA_Y = 13;
@@ -309,7 +309,7 @@ namespace Platfarm.Components
         private Texture2D scrapbookTab1Hover, scrapbookTab2Hover, scrapbookTab3Hover, scrapbookTab4Hover, scrapbookTab5Hover, scrapbookTab6Hover, scrapbookTab7Hover, scrapbookTab8Hover, scrapbookTab9Hover, scrapbookTab10Hover, scrapbookTab11Hover;
         private Texture2D scrapbookTab1ActiveHover, scrapbookTab2ActiveHover, scrapbookTab3ActiveHover, scrapbookTab4ActiveHover, scrapbookTab5ActiveHover, scrapbookTab6ActiveHover, scrapbookTab7ActiveHover, scrapbookTab8ActiveHover, scrapbookTab9ActiveHover, scrapbookTab10ActiveHover, scrapbookTab11ActiveHover;
         private Texture2D scrapbookTitleActive, scrapbookTitleHover, scrapbookTitleActiveHover;
-        private static Vector2 SCRAPBOOK_POSITION = new Vector2(18, 16);
+        public static Vector2 SCRAPBOOK_POSITION = new Vector2(17, 6); //m
         private static Vector2 SCRAPBOOK_TAB1_POSITION = SCRAPBOOK_POSITION + new Vector2(-1, 24);
         private static Vector2 SCRAPBOOK_TAB2_POSITION = SCRAPBOOK_TAB1_POSITION + new Vector2(0, 10);
         private static Vector2 SCRAPBOOK_TAB3_POSITION = SCRAPBOOK_TAB2_POSITION + new Vector2(0, 10);
@@ -347,11 +347,11 @@ namespace Platfarm.Components
         private DialogueNode currentDialogue = null;
 
         private Texture2D exitPrompt;
-        private static Vector2 EXIT_PROMPT_POSITION = new Vector2(130, 45);
+        private static Vector2 EXIT_PROMPT_POSITION = new Vector2(130, 25); //m
         private RectangleF exitPromptButton;
 
         private Texture2D settings, checkmark;
-        private static Vector2 SETTINGS_POSITION = new Vector2(130, 25);
+        private static Vector2 SETTINGS_POSITION = new Vector2(130, 15); //m
         private RectangleF[] settingsRectangles;
 
         private Vector2 targetTile;
@@ -361,11 +361,11 @@ namespace Platfarm.Components
         private bool drawReticle;
 
         private Texture2D garbageCanOpen, garbageCanClosed;
-        private static Vector2 GARBAGE_CAN_LOCATION = new Vector2(44, 138); 
+        private static Vector2 GARBAGE_CAN_LOCATION = new Vector2(44, 118); //m 
         private RectangleF garbageCanRectangle;
 
         private static string selectedHotbarItemName;
-        private static Vector2 SELECTED_HOTBAR_ITEM_NAME = new Vector2(160, 178);
+        private static Vector2 SELECTED_HOTBAR_ITEM_NAME = new Vector2(160, 158); //m
 
         private AnimatedSprite dialogueBox, bounceArrow;
         private int currentDialogueNumChars;
@@ -387,7 +387,7 @@ namespace Platfarm.Components
         private static Texture2D workbenchClothingTab, workbenchFloorWallTab, workbenchScaffoldingTab, workbenchFurnitureTab, workbenchMachineTab;
         private static Texture2D workbenchArrowLeft, workbenchArrowRight, workbenchCraftButton, workbenchCraftButtonEnlarged, workbenchQuestionMark, workbenchBlueprintDepression;
 
-        private static Vector2 WORKBENCH_POSITION = new Vector2(53, 34);
+        private static Vector2 WORKBENCH_POSITION = new Vector2(53, 14); //m
         private static Vector2 WORKBENCH_MACHINE_TAB_POSITION = WORKBENCH_POSITION + new Vector2(0, 28);
         private static Vector2 WORKBENCH_SCAFFOLDING_TAB_POSITION = WORKBENCH_MACHINE_TAB_POSITION + new Vector2(0, 11);
         private static Vector2 WORKBENCH_FURNITURE_TAB_POSITION = WORKBENCH_SCAFFOLDING_TAB_POSITION + new Vector2(0, 11);
